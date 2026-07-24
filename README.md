@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Darsh Mahadevia — software developer" />
+  <img src="./assets/header-minimal.svg" width="100%" alt="Darsh Mahadevia — software developer" />
 
   <p><strong>Go · APIs · Backend systems</strong></p>
 
