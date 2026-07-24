@@ -1,35 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
   <title id="title">Darsh Mahadevia</title>
-  <desc id="desc">Software developer building practical web tools and backend systems.</desc>
+  <desc id="desc">Darsh Mahadevia — Go and backend systems.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0F172A" />
-      <stop offset="0.55" stop-color="#172554" />
-      <stop offset="1" stop-color="#2E1065" />
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090A0C" />
+      <stop offset="1" stop-color="#17191D" />
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22D3EE" />
-      <stop offset="1" stop-color="#A78BFA" />
-    </linearGradient>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="28" />
-    </filter>
+    <radialGradient id="signal" cx="50%" cy="45%" r="50%">
+      <stop offset="0" stop-color="#C9A227" stop-opacity=".16" />
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
-  <rect width="1200" height="300" rx="28" fill="url(#background)" />
-  <circle cx="1080" cy="40" r="150" fill="#7C3AED" opacity=".16" filter="url(#glow)" />
-  <circle cx="90" cy="290" r="130" fill="#06B6D4" opacity=".14" filter="url(#glow)" />
+  <rect width="1200" height="260" rx="18" fill="url(#night)" />
+  <circle cx="1015" cy="104" r="165" fill="url(#signal)" />
 
-  <g opacity=".18" fill="none" stroke="#CBD5E1">
-    <path d="M900 66h142l56 56-56 56H900l-56-56z" />
-    <path d="M950 102h70l28 28-28 28h-70l-28-28z" />
-    <circle cx="1065" cy="221" r="5" fill="#CBD5E1" stroke="none" />
-    <circle cx="1092" cy="221" r="5" fill="#CBD5E1" stroke="none" />
-    <circle cx="1119" cy="221" r="5" fill="#CBD5E1" stroke="none" />
+  <g fill="#24272C" opacity=".85">
+    <path d="M0 229h82v-24h27v24h46v-53h30v53h30v-35h22v35h54v-72h34v72h25v-26h38v26h36v-45h25v45h54v-67h28v67h56v-32h20v32h55v-54h30v54h63v-29h28v29h50v-61h35v61h43v-39h28v39h52v-79h35v79h52v-48h28v48h64v-25h25v25h83v31H0z" />
   </g>
 
-  <text x="74" y="116" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" letter-spacing="3">HELLO, I'M</text>
-  <text x="70" y="184" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="62" font-weight="700">Darsh Mahadevia</text>
-  <rect x="73" y="208" width="388" height="5" rx="2.5" fill="url(#accent)" />
-  <text x="73" y="252" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24">Web tools · APIs · Backend systems</text>
+  <g fill="none" stroke="#C9A227" stroke-width="2" opacity=".75">
+    <path d="M925 92c31-25 59-25 90 0 31-25 59-25 90 0-31 7-56 25-90 47-34-22-59-40-90-47z" />
+    <path d="M925 92c19 8 35 21 49 39M1105 92c-19 8-35 21-49 39" opacity=".6" />
+  </g>
+
+  <rect x="76" y="72" width="4" height="108" fill="#C9A227" />
+  <text x="108" y="112" fill="#858A93" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="5">DARSH MAHADEVIA</text>
+  <text x="104" y="164" fill="#F1F1EF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="48" font-weight="600" letter-spacing="1">GO · BACKEND SYSTEMS</text>
+  <rect x="108" y="189" width="220" height="2" fill="#C9A227" opacity=".9" />
 </svg>
