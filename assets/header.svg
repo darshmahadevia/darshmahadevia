@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Darsh Mahadevia</title>
+  <desc id="desc">Software developer building practical web tools and backend systems.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F172A" />
+      <stop offset="0.55" stop-color="#172554" />
+      <stop offset="1" stop-color="#2E1065" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" />
+      <stop offset="1" stop-color="#A78BFA" />
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="28" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="28" fill="url(#background)" />
+  <circle cx="1080" cy="40" r="150" fill="#7C3AED" opacity=".16" filter="url(#glow)" />
+  <circle cx="90" cy="290" r="130" fill="#06B6D4" opacity=".14" filter="url(#glow)" />
+
+  <g opacity=".18" fill="none" stroke="#CBD5E1">
+    <path d="M900 66h142l56 56-56 56H900l-56-56z" />
+    <path d="M950 102h70l28 28-28 28h-70l-28-28z" />
+    <circle cx="1065" cy="221" r="5" fill="#CBD5E1" stroke="none" />
+    <circle cx="1092" cy="221" r="5" fill="#CBD5E1" stroke="none" />
+    <circle cx="1119" cy="221" r="5" fill="#CBD5E1" stroke="none" />
+  </g>
+
+  <text x="74" y="116" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" letter-spacing="3">HELLO, I'M</text>
+  <text x="70" y="184" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="62" font-weight="700">Darsh Mahadevia</text>
+  <rect x="73" y="208" width="388" height="5" rx="2.5" fill="url(#accent)" />
+  <text x="73" y="252" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="24">Web tools · APIs · Backend systems</text>
+</svg>
