@@ -7,13 +7,13 @@ I'm a computer science undergraduate at the University of Pittsburgh, graduating
 ## Selected work
 
 - **[Ternion](https://github.com/darshmahadevia/ternion)**<br>
-  A strongly consistent key-value database for a fixed three-node cluster, with a deterministic Raft state machine, segmented write-ahead log, snapshots, gRPC API, and multi-process failure tests.
-
-- **[Tuiscrib](https://github.com/darshmahadevia/tuiscrib)**<br>
-  A collaborative sticky-note board for the terminal, with live presence, exclusive edit claims, revision checks, and reconnect snapshots over WebSockets.
+  A strongly consistent key-value database for a fixed three-node cluster. I built the Raft state machine, write-ahead log, snapshot recovery, gRPC API, and deterministic failure tests in Go.
 
 - **[OpenFilm](https://github.com/darshmahadevia/OpenFilm)** · [Live app](https://openfilm.vercel.app/app.html)<br>
-  A local-first browser workstation for reviewing and editing photographs. Source files stay on the user's device, and WebGL2 powers non-destructive previews and export.
+  A local-first browser workstation for culling, comparing, and editing photographs. Source files stay on the user's device, and previews use the same WebGL2 renderer as final exports.
+
+- **[Tuiscrib](https://github.com/darshmahadevia/tuiscrib)**<br>
+  A shared sticky-note board for the terminal. React and OpenTUI clients collaborate over WebSockets, while edit claims and revision checks prevent stale writes from replacing newer work.
 
 ## Tools I use
 
